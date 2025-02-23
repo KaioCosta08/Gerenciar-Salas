@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/stylePosLogin.css">
+    <link rel="icon" href="../images/logoSenai (2).png">
+    <title>Senai - Enviar Pedido</title>
+</head>
+<body id="bodyCoordenador">
+    <div class="box_esquerdoHeader">
+        <div id="separacao">
+            <br>
+            <div id="box_titlePainelAdmin">
+                <h1>Painel Professor</h1>
+            </div>
+            <div id="box_links">
+                <a href="indexEnviarPedidoProfessor.html">
+                    <h1>Solicitar Sala</h1>
+                </a>
+                <a href="indexHistoricoPedidos.html">
+                    <h1>Historico de Pedidos</h1>
+                </a>
+            </div>
+        </div>
+        <div id="box_config">
+            <a href="#">
+                <h3>Configurações</h3>
+            </a>    
+        </div>
+    </div>
+    <div id="box_direitoPedidodeSalas2">
+        <div id="titleProfessor">
+            <h1>Agendamento de Sala</h1>
+        </div>
+        <br>
+        <form action="#" id="formProfessor" method="get">
+            <div id="box_inputs">
+                <div class="info">
+                    <label for="curso">Curso: </label><br>
+                    <input type="text" name="curso" id="curso" placeholder="Digite o curso">
+                </div>
+                <br>
+                <div class="info">
+                    <label for="data">Data: </label><br>
+                    <input type="date" name="data" id="data">
+                </div>
+                <br>
+                <div class="info">
+                    <label for="sala">Sala: </label><br>
+                    <input type="text" name="sala" id="sala" placeholder="Digite o sala">
+                </div>
+                <br>
+                <div class="info">
+                    <label for="blocoProfessor">Bloco: </label><br>
+                    <input type="text" name="blocoProfessor" id="blocoProfessor" placeholder="Digite o bloco">
+                </div>
+            </div>
+            <br><br><br>
+            <button type="submit" id="buttonSolicitarSala">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

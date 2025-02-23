@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="icon" href="../images/logoSenai (2).png">
+    <title>Senai - Cadastro Coordenador</title>
+</head>
+<body>
+    <!-- Inicio Header -->
+    <header id="header">
+        <div id="logo_Senai">
+            <img src="../images/logoSenai (2).png" alt="logoSenai">
+        </div>
+        <nav id="box_nav">
+            <ul id="box_ul">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="indexLoginCoodernador.html">Coordenador</a></li>
+                <li><a href="indexLoginProfessor.html">Professor</a></li>
+            </ul>
+        </nav>
+        <a href="indexHelp.html">
+            <button class="buttonSimple">Help</button>
+        </a>
+    </header>
+
+    <!-- Inicio Main -->
+    <main id="mainLoginCoordenador">
+        <h1>Login Coordenador</h1>
+        <br>
+        <hr>
+        <br>
+        <div id="box_Cadastro">
+            <form action="indexPedidoSalaCoordenador.html" method="get" id="box_formCoordenador">
+                <div class="box_rowInput">
+                    <label for="name">Nome:</label><br>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                </div>
+                <br>
+                <div class="box_rowInput">
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email institucional" required>
+                </div>
+                <br>
+                <div class="box_rowInput">
+                    <label for="senha">Senha:</label><br>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                </div>
+                <br>
+                <button class="buttonSimple" type="submit">Entrar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

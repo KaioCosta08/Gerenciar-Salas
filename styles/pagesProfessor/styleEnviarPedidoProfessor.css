@@ -1,0 +1,70 @@
+#box_direitoPedidodeSalas2 {
+    width: 1049px;
+    height: 600px;
+    background-color: #8A1212;
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 12px;
+} 
+
+#title_boxHistorico {
+    color: #000;
+}
+
+#box_direitoPedidodeSalas form {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#box_inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+#formProfessor label{
+    font-size: 24px;
+}
+
+#formProfessor input {
+    width: 624px;
+    height: 49px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 15px;
+}
+
+#formProfessor input::placeholder {
+    color: #000;
+}
+
+#buttonSolicitarSala {
+    width: 131px;
+    height: 57px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#buttonSolicitarSala:hover {
+    background-color: #A9A9A9;
+    transition: 1s;
+    color: #fff;
+}

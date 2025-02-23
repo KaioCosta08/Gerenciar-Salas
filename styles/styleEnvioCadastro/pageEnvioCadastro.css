@@ -1,0 +1,45 @@
+/* Header Page Envio Cadastro */
+
+#headerEnvioCadastro {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Page Envio Cadastro */
+
+#mainEnvioCadastro {
+    width: 1067px;
+    height: 571px;
+    border-radius: 12px;
+    background-color: #8A1212;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#box_titlesEnvioCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#box_titlesEnvioCadastro h1 {
+    font-size: 4.0rem;
+    color: #fff;
+    font-family: "Poppins", serif;
+}
+
+#box_titlesEnvioCadastro h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    font-family: "Poppins", serif;
+}

@@ -1,0 +1,8 @@
+@import url('global.css');
+@import url('header.css');
+@import url('stylePrincipal/mainIndex.css');
+@import url('styleCadastro/formCadastro.css');
+@import url('styleEnvioCadastro/pageEnvioCadastro.css');
+@import url('styleLoginCoordenador/styleformLoginCoordenador.css');
+@import url('styleLoginProfessor/styleLoginProfessor.css');
+@import url('styleHelp/pageHelp.css');

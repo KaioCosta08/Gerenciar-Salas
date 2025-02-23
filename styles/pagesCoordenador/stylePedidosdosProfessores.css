@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Div da Esquerda */
+
+#bodyCoordenador {
+    display: flex;
+    align-items: flex-start; 
+    gap: 30%; 
+}
+
+.box_esquerdoHeader {
+    background-color: #8A1212;
+    width: 283px; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;  
+}
+
+#box_titlePainelAdmin h1{
+    font-size: 29px;
+    color: #fff;
+    font-family: Poppins, serif;
+    font-weight: lighter;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#box_links {
+    margin-top: 30px;
+    padding: 10px 30px;
+}
+
+#box_links h1, a{
+    font-size: 19px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #fff;
+    font-family: Poppins, serif;
+    font-weight: lighter;
+}
+ 
+#box_config {
+    margin-top: 250%;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+} 
+
+#box_config h3:hover {
+    color: #A9A9A9;
+}
+
+#box_links h1:hover {
+    color: #A9A9A9;
+}
+
+/* Div da Direita */
+
+#box_direitoPedidodeSalas1 {
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+}
+
+
+#title_box {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+#bloco {
+    background-color: #000;
+    width: 1120px;
+    margin: 0 auto;
+    border-radius: 12px;
+    color: #fff;
+    padding: 15px 20px;
+    display: grid;
+    grid-template-columns: 1.1fr 1.01fr 1.2fr 1.1fr 2.3fr;
+}
+
+#bloco h2 {
+    font-size: 16px;
+    font-weight: lighter;
+
+}
+
+#pedidos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_pedidos {
+    background-color: #D9D9D9;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 0px 20px;
+    height: 63px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 1120px;
+    align-items: center;
+}
+
+.box_pedidos h1 {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+
+.buttonAccept {
+    padding: 15px 20px;
+    border-radius: 12px;
+    background-color: #0FBA00;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttonRecusar {
+    padding: 15px 20px;
+    border-radius: 12px;
+    background-color: #BA0000;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}

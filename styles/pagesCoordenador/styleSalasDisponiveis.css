@@ -1,0 +1,60 @@
+#direitoSalas {
+    width:  75%;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+}
+
+#titleSalas {
+    display: flex;
+    justify-content: center;
+}
+
+#blocoRowOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 110px;
+}
+
+#blocoRowTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 110px;
+}
+
+.boxBloco {
+    width: 281px;
+    height: 303px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8A1212;
+    color: #fff;
+    border-radius: 12px;
+    gap: 10px;
+}
+
+.blocoSala {
+    display: flex;
+    width: 244px;
+    height: 32px;
+    background-color: #00FF00;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.ocupada {
+    background-color: #FF0000;
+}

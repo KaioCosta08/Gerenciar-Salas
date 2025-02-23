@@ -1,0 +1,40 @@
+#mainLoginProfessor {
+    background-color: #8A1212;
+    border-radius: 12px;
+    width: 532px;
+    height: 552px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainLoginProfessor h1 {
+    color: #fff;
+    font-size: 2.125rem;
+    font-family: "Poppins", serif;
+}
+
+#mainLoginProfessor hr {
+    width: 500px;
+}
+
+.opcaoProfessor {
+    width: 420px;
+    height: 44px;
+    cursor: pointer;
+    outline: none;
+}
+
+.opcaoProfessor option {
+    cursor: pointer;
+}
+
+#box_formProfessor button{
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+#mainCadastro {
+    background-color: #8A1212;
+    border-radius: 12px;
+    width: 532px;
+    height: 552px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainCadastro h1{
+    color: #fff;
+    font-size: 2.125rem;
+    font-family: "Poppins", serif;
+}
+
+#box_Cadastro form {
+    display: flex;
+    flex-direction: column;
+}
+
+#box_formCadastro button {
+    display: block;
+    margin: 0 auto;
+    font-family: "Poppins", serif;
+} 
+
+.box_rowInput label {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.box_rowInput input {
+    width: 420px;
+    height: 44px;
+    padding: 10px 10px;
+}
